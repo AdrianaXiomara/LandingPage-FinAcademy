@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Academy - Educación financiera para universitarios</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos propia -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <div class="brand">
+        <span class="brand__name">Finance Academy</span>
+      </div>
+      <nav class="nav__links">
+        <a href="#inicio" class="nav__link nav__link--active">Inicio</a>
+        <a href="#modulos" class="nav__link">Módulos</a>
+        <a href="#comunidad" class="nav__link">Comunidad</a>
+        <a href="#contacto" class="nav__link">Contacto</a>
+      </nav>
+      <a href="#contacto" class="btn btn--primary btn--sm">Crear cuenta gratis</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container grid-2 hero__grid">
+        <div class="hero__copy">
+          <span class="eyebrow">Para estudiantes universitarios</span>
+          <h1 class="hero__title">
+            Aprende a <span class="text-gradient">manejar tu dinero</span> antes de salir de la universidad
+          </h1>
+          <p class="hero__subtitle">
+            Cursos en video, un foro para resolver tus dudas y tutorías con expertos. Todo en un solo lugar, pensado para estudiantes de 18 a 25 años.
+          </p>
+          <div class="hero__cta">
+            <a href="#contacto" class="btn btn--primary">Crear cuenta gratis</a>
+            <a href="#modulos" class="btn btn--secondary">Ver cómo funciona</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+
+          <div class="hero__icon-circle">
+            <img src="imagenes/hero.webp" alt="Estudiante aprendiendo sobre finanzas" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MÓDULOS -->
+    <section id="modulos" class="section section--surface">
+      <div class="container">
+        <div class="section__head">
+          <h2>Todo lo que necesitas para aprender sobre finanzas.</h2>
+          <p>Tres módulos pensados para distintos momentos: cuando quieres aprender, cuando tienes una duda puntual, y cuando necesitas ayuda personalizada.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="card__icon card__icon--blue">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7c-1.8-1.3-4-2-7-2v12c3 0 5.2.7 7 2 1.8-1.3 4-2 7-2V5c-3 0-5.2.7-7 2Z"/><path d="M12 7v12"/></svg>
+            </div>
+            <span class="tag tag--blue">Aprende a tu ritmo</span>
+            <h3>Cursos de educación financiera</h3>
+            <p>Lecciones en video organizadas por nivel, desde cómo armar tu primer presupuesto hasta tus primeros pasos en inversión.</p>
+            <a href="#" class="card__link">Explorar cursos
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card__icon card__icon--gold">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 20l1-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6A8.4 8.4 0 0 1 11.6 2h.3a8.5 8.5 0 0 1 8.5 8.3Z"/></svg>
+            </div>
+            <span class="tag tag--gold">Resuelve tus dudas</span>
+            <h3>Foro de preguntas y respuestas</h3>
+            <p>Pregunta lo que sea sobre tu plata y recibe respuestas de otros estudiantes y de tutores verificados.</p>
+            <a href="#comunidad" class="card__link">Entrar al foro
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card__icon card__icon--amber">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="#B9781F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/><path d="m9 16 2 2 4-4"/></svg>
+            </div>
+            <span class="tag tag--amber">Asesoría 1 a 1</span>
+            <h3>Tutorías con expertos</h3>
+            <p>Agenda una sesión con un tutor verificado en el tema que necesites, según su disponibilidad real.</p>
+            <a href="#" class="card__link">Buscar un tutor
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUÉ -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title-standalone">Hecho para estudiantes, no para expertos en finanzas.</h2>
+
+        <div class="grid-4">
+          <div class="benefit">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/></svg>
+            <h3>Empiezas desde cero</h3>
+            <p>No necesitas saber de finanzas para empezar: los cursos parten de lo más básico y avanzan a tu ritmo.</p>
+          </div>
+          <div class="benefit">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/></svg>
+            <h3>Tutores verificados</h3>
+            <p>Cada tutor pasa por una revisión antes de aparecer disponible, así sabes que hablas con alguien que sabe del tema.</p>
+          </div>
+          <div class="benefit">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/></svg>
+            <h3>Resuelve dudas puntuales</h3>
+            <p>No todo necesita una tutoría: el foro está ahí para esa pregunta rápida que te toma un minuto escribir.</p>
+          </div>
+          <div class="benefit">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="var(--primary)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/></svg>
+            <h3>Hecho para tu rutina</h3>
+            <p>Lecciones cortas en video que puedes ver entre clases, sin que compitan con tu tiempo de estudio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="comunidad" class="section section--surface">
+      <div class="container">
+        <h2 class="section__title-standalone text-center">Lo que dicen quienes ya están aprendiendo...</h2>
+
+        <div class="grid-3">
+          <article class="testimonial">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="var(--primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8c-2 1-3 3-3 5.5A3.5 3.5 0 0 0 7.5 17 3.5 3.5 0 0 0 11 13.5C11 11 9 9.5 7 9.5"/><path d="M16 8c-2 1-3 3-3 5.5a3.5 3.5 0 0 0 3.5 3.5 3.5 3.5 0 0 0 3.5-3.5C20 11 18 9.5 16 9.5"/></svg>
+            <p class="testimonial__quote">"Entré sin saber ni armar un presupuesto y en un mes ya tenía controlados mis gastos."</p>
+            <div class="testimonial__author">
+              <img src="imagenes/testimonio1.jpg" alt="Foto de Camila R." class="avatar" />
+              <div>
+                <p class="testimonial__name">Camila R.</p>
+                <p class="testimonial__role">Estudiante de Administración</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="var(--primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8c-2 1-3 3-3 5.5A3.5 3.5 0 0 0 7.5 17 3.5 3.5 0 0 0 11 13.5C11 11 9 9.5 7 9.5"/><path d="M16 8c-2 1-3 3-3 5.5a3.5 3.5 0 0 0 3.5 3.5 3.5 3.5 0 0 0 3.5-3.5C20 11 18 9.5 16 9.5"/></svg>
+            <p class="testimonial__quote">"Pregunté en el foro algo que me daba vergüenza preguntar en clase y en un par de horas ya tenía respuesta."</p>
+            <div class="testimonial__author">
+              <img src="imagenes/testimonio2.jpeg" alt="Foto de Diego H." class="avatar" />
+              <div>
+                <p class="testimonial__name">Diego H.</p>
+                <p class="testimonial__role">Estudiante de Ingeniería</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="var(--primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8c-2 1-3 3-3 5.5A3.5 3.5 0 0 0 7.5 17 3.5 3.5 0 0 0 11 13.5C11 11 9 9.5 7 9.5"/><path d="M16 8c-2 1-3 3-3 5.5a3.5 3.5 0 0 0 3.5 3.5 3.5 3.5 0 0 0 3.5-3.5C20 11 18 9.5 16 9.5"/></svg>
+            <p class="testimonial__quote">"La tutoría me ayudó a entender por fin cómo funcionan los fondos de inversión."</p>
+            <div class="testimonial__author">
+              <img src="imagenes/testimonio3.jpeg" alt="Foto de Valentina S." class="avatar" />
+              <div>
+                <p class="testimonial__name">Valentina S.</p>
+                <p class="testimonial__role">Estudiante de Economía</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container container--narrow">
+        <div class="section__head text-center">
+          <h2>¿Tienes dudas sobre Finance Academy?</h2>
+          <p>Escríbenos y te respondemos en menos de 24 horas.</p>
+        </div>
+
+        <form class="form-card" id="contactForm">
+          <div id="formFields" class="form-fields">
+            <div class="grid-2 form-row">
+              <div class="field">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+              </div>
+              <div class="field">
+                <label for="correo">Correo electrónico</label>
+                <input id="correo" name="correo" type="email" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            </div>
+            <p id="formError" class="form-error" hidden></p>
+            <button type="submit" class="btn btn--primary btn--block">Enviar mensaje</button>
+          </div>
+
+          <div id="formSuccess" class="form-success" hidden>
+            <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/></svg>
+            <p id="formSuccessTitle" class="form-success__title">¡Gracias!</p>
+            <p id="formSuccessText" class="form-success__text"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner__glow cta-banner__glow--1"></div>
+          <div class="cta-banner__glow cta-banner__glow--2"></div>
+          <div class="cta-banner__content">
+            <h2>Empieza a construir tu futuro financiero hoy</h2>
+            <p>Crea tu cuenta gratis y da tu primer paso en educación financiera.</p>
+            <a href="#contacto" class="btn btn--accent">Crear cuenta gratis</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container grid-3">
+      <div class="footer__brand">
+        <span class="brand__name">Finance Academy</span>
+        <p>Educación financiera para estudiantes universitarios: cursos, foro y tutorías en un solo lugar.</p>
+        <p class="footer__copy">© 2026 Finance Academy.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <a href="mailto:contacto@financeacademy.pe">contacto@financeacademy.pe</a>
+        <p>Lima, Perú</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Síguenos</h4>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="footer__social">
+          <img src="imagenes/logoIG.jpg" alt="Instagram" class="footer__social-icon" />
+          Instagram
+        </a>
+        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="footer__social">
+          <img src="imagenes/logoTikTok.png" alt="TikTok" class="footer__social-icon" />
+          TikTok
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="footer__social">
+          <img src="imagenes/logoLinkedIn.png" alt="LinkedIn" class="footer__social-icon" />
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
